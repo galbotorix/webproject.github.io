@@ -1,40 +1,32 @@
 footer {
-  padding-top: 70px;
-}
-
-.contacts ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.con1 {
-  float: left;
-  margin-left: 20px;
-  padding-right: 40px;
-}
-
-.con2  {
-  border-right: none;
-  float: right;
-  margin-right: 20px;
-}
-
-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex: 100%;
+  flex: 100%;
   background-position: bottom;
-  background-color: #1F45FC;
-  color: grey;
-  text-align: center;
+  background-color: #292c2f;
 }
 
-.c {
-  color: #000000;
-  font-size: 20px;
-  line-height: 1em;
-  text-shadow: 0px 0px 0px #000000;
-  text-align: left;
+.containerf {
+  	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  	box-sizing: border-box;
+  	width: 100%;
+  	text-align: left;
+  	font: bold 16px sans-serif;
+  	margin-top: 80px;
+    display: inline-block;
+  	vertical-align: top;
+}
+
+.containerf .con1 {
+  float: left;
+  width:40%;
+}
+
+.containerf .con2  {
+  float: right;
+ width:30%;
+ margin-right: 10%;
 }

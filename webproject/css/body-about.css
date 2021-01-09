@@ -1,43 +1,141 @@
-.row1 ul {
-  list-style-type: none;
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.header {
+  margin-top:0.1%;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  padding-top: 0.05%;
+  width:50%;
+  margin-left: 20%;
+  margin-right: 30%;
+  background-image:url('../pictures/back5.jpg');
+  background-attachment: fixed;
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header h1{
+  font-size: 300%;
+}
+
+.row1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.part1 {
+.part1 ul{
+  padding-bottom: 0;
+}
+
+.russle {
   float: left;
-  margin-left: 20px;
+  width:50%;
 }
 
-.part2  {
-  border-right: none;
+.part1 h3,
+.part1 p{
+  float:right;
+  width: 40%;
+}
+
+.part2 ul{
+  padding-bottom: 0;
+}
+
+.dian {
   float: right;
-  margin-right: 20px;
+  margin-right: 15px;
+  width: 50%;
 }
 
-.row2 ul {
-  list-style-type: none;
+.diantxt{
+  float: left;
+  margin-left: 15px;
+  width:40%;
+}
+
+
+.row2 {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.part3 {
+.part3 ul{
+  padding-bottom: 0;
+}
+
+.dog {
   float: left;
-  margin-left: 20px;
+  margin-left: 15px;
+  width: 50%;
 }
 
-.part4  {
-  border-right: none;
+.dogtxt{
   float: right;
-  margin-right: 20px;
+  margin-right: 15px;
+  width:40%;
 }
 
-p {
+.cat {
+  float: right;
+  margin-right: 15px;
+  width: 50%;
+}
+
+.cattxt{
+  float: left;
+  margin-left: 15px;
+  width:40%;
+}
+
+.row1 ul,
+.row2 ul{
+  padding: 5%;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  margin-left:5%;
+  margin-right:5%;
+  background-color: grey;
+  background-image:url('../pictures/back5.jpg');
+  background-attachment: fixed;
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@font-face { font-family: Miso; src: url('../fonts/Miso-hp2.ttf'); }
+@font-face { font-family: Langdon; src: url('../fonts/Langdon-hp1.ttf'); }
+@font-face { font-family: Roboto; src: url('../fonts/Roboto-c.ttf'); }
+
+.navbar a{
+  font-size: 130%;
+  font-family: Langdon;
+}
+
+.container,
+.header p {
  color: #000000;
  font-size: 20px;
  line-height: 1em;
  text-shadow: 0px 0px 0px #000000;
  text-align: left;
+ font-family: Roboto;
+}
+
+h1,h2,h3{
+  text-shadow: 0px 0px 0px #000000;
+  font-weight: lighter;
+  font-size: 30px;
+  font-family: Miso;
 }
